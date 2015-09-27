@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kalkulator napiwków</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="type_here">Pisz...</string>
+    <string name="hello_world">Witaj świecie!</string>
+    <string name="send">Wyślij</string>
+    <string name="calculate">Oblicz</string>
+    <string name="clear">Wyczyść</string>
+    <string name="amount_of_bill">Wysokość rachunku</string>
+    <string name="number_of_people">Liczba osób</string>
+    <string name="tip">Napiwek (%)</string>
+    <string name="tip_value">Wartość napiwku</string>
+    <string name="to_pay">Do zapłaty</string>
+    <string name="to_pay_person">Do zapłaty na osobę</string>
+    <string name="other">Inny</string>
+</resources>

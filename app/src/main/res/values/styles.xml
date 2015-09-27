@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <!--<item name="android:actionBarStyle">@style/MyActionBar</item>-->
+    </style>
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.ActionBar.Solid">
+        <item name="android:background">#000000</item>
+        <item name="android:titleTextStyle">@style/MyActionBar.Title</item>
+    </style>
+    <style name="MyActionBar.Title" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="Label" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:background">@drawable/text_view_background_default</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/field_height</item>
+        <item name="android:paddingTop">@dimen/padding_top_bottom_text</item>
+        <item name="android:paddingBottom">@dimen/padding_top_bottom_text</item>
+        <item name="android:paddingLeft">@dimen/padding_left_right_text</item>
+        <item name="android:paddingRight">@dimen/padding_left_right_text</item>
+    </style>
+    <style name="Label2" parent="@style/Label">
+        <item name="android:background">@drawable/edit_text_background_default</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="EditText" parent="@android:style/Widget.Holo.Light.EditText">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/edit_text_background_selector</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/field_height</item>
+        <item name="android:paddingTop">@dimen/padding_top_bottom_text</item>
+        <item name="android:paddingBottom">@dimen/padding_top_bottom_text</item>
+        <item name="android:paddingLeft">@dimen/padding_left_right_text</item>
+        <item name="android:paddingRight">@dimen/padding_left_right_text</item>
+    </style>
+    <style name="Radio" parent="@android:style/Widget.Holo.Light.CompoundButton.RadioButton">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:background">@drawable/radio_button_background_default</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">@dimen/field_height</item>
+        <item name="android:paddingTop">@dimen/padding_top_bottom_text</item>
+        <item name="android:paddingBottom">@dimen/padding_top_bottom_text</item>
+        <item name="android:paddingRight">@dimen/padding_left_right_text</item>
+        <item name="android:layout_weight">0.3</item>
+    </style>
+    <style name="Button" parent="@android:style/Widget.Holo.Light.Button">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:background">@drawable/button_background_selector</item>
+        <item name="android:layout_height">@dimen/field_height</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:paddingTop">@dimen/padding_top_bottom_text</item>
+        <item name="android:paddingBottom">@dimen/padding_top_bottom_text</item>
+        <item name="android:paddingLeft">@dimen/padding_left_right_text</item>
+        <item name="android:paddingRight">@dimen/padding_left_right_text</item>
+    </style>
+</resources>
